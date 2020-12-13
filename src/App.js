@@ -1,6 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './components/welcome.js';
 
+function App() {
+  return (
+    <div>
+      <Welcome name ="Sara" />
+      <Welcome name ="Cahal" />
+      <Welcome name="Edite" />
+    </div>
+  )
+}
+
+/*
 function App() {
   return (
     <div className="App">
@@ -20,6 +32,6 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
 
 export default App;
